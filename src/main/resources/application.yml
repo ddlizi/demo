@@ -1,0 +1,14 @@
+#jdbc的配置
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/db_gm?userSSL=true&chatacterEncoding=utf-8&serverTimezone=UTC
+    username: root
+    password:
+#视图解析器
+  mvc:
+    view:
+      prefix: /
+      suffix: .html
+#mybaits
+mybatis:
+  type-aliases-package: com.example.demo
